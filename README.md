@@ -62,9 +62,9 @@ select
 	count(show_id) 
 from netflix
 group by 1
-```
---Objective: Determine the distribution of content types on Netflix.
 
+--Objective: Determine the distribution of content types on Netflix.
+```
 --Task 2. Find the Most Common Rating for Movies and TV Shows
 ```sql
 Select type, rating
