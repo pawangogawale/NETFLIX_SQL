@@ -41,7 +41,7 @@ Create table Netflix
 -- Improt the data(.CSV file) into the database `Netflix_db`
 
 -- Exploring the data
-
+```sql
 Select * from netflix
 
 Select COUNT(DISTINCT(director)) from netflix
@@ -53,19 +53,20 @@ select count(description) from netflix
 where date_added is is null
 
 Select *from netflix
-
+```
+### Business Problems and Solutions
 --Task 1. Count the Number of Movies vs TV Shows
-
+```sql
 select 
 	type, 
 	count(show_id) 
 from netflix
 group by 1
-
+```
 --Objective: Determine the distribution of content types on Netflix.
 
 --Task 2. Find the Most Common Rating for Movies and TV Shows
-
+```sql
 Select type, rating
 From
 (
@@ -80,7 +81,7 @@ order by 1,3 desc
 ) 
 AS Temp
 where rating_rank = 1
-
+```
 
 --Objective: The SQL query identifies the most frequently occurring content rating for each type (Movie or TV Show) in the Netflix dataset. It does this by counting ratings, ranking them by frequency, and selecting the highest-ranked rating per type.
 
