@@ -81,12 +81,11 @@ order by 1,3 desc
 ) 
 AS Temp
 where rating_rank = 1
-```
 
 --Objective: The SQL query identifies the most frequently occurring content rating for each type (Movie or TV Show) in the Netflix dataset. It does this by counting ratings, ranking them by frequency, and selecting the highest-ranked rating per type.
-
+```
 --Task 3. List All Movies Released in a Specific Year (e.g., 2020)
-
+```sql
 Select title 
 from netflix
 where release_year = 2020 and type ilike 'movie'
@@ -102,7 +101,7 @@ Select title, cast(date_added as date) as added_date from netflix
 as t2
 where to_char(added_date, 'YYYY') = '2020'
 */
-
+```
 --Task 4. Find the Top 5 Countries with the Most Content on Netflix
 
 select 
