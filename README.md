@@ -287,7 +287,7 @@ GROUP BY type;
 --Objective: It calculates the total number of titles for each content type (Movie or TV Show) in the Netflix dataset.
 ```
 
-** Conclusion **
+### Conclusion 
 ✅ Netflix has a diverse catalog, with a significant presence of both Movies and TV Shows.
 ✅ Certain countries contribute more content than others, highlighting regional content trends.
 ✅ Genres like Drama and Comedy dominate, while Documentary and Crime content also have strong representation.
