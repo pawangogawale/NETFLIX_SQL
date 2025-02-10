@@ -19,7 +19,7 @@ This project involves a comprehensive analysis of Netflix's movies and TV shows 
 ### Create the Database `Netflix_db`
 
 -- Create Table to import the data
-
+```sql
 DROP table if exists Netflix;
 Create table Netflix
 (
@@ -37,7 +37,7 @@ Create table Netflix
 	description VARCHAR(450)
 
 );
-
+```
 -- Improt the data(.CSV file) into the database `Netflix_db`
 
 -- Exploring the data
