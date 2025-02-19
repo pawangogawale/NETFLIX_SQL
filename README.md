@@ -288,12 +288,12 @@ GROUP BY type;
 ```
 
 ### Conclusion 
-✅ Netflix has a diverse catalog, with a significant presence of both Movies and TV Shows.
-✅ Certain countries contribute more content than others, highlighting regional content trends.
-✅ Genres like Drama and Comedy dominate, while Documentary and Crime content also have strong representation.
-✅ Data quality issues exist, with missing values for directors and date-added fields.
-✅ Netflix continues to expand its library, adding a significant amount of content in recent years.
-✅ This analysis can be used to guide Netflix’s content strategy, improve recommendations, and tailor regional content offerings.
+- ✅ Netflix has a diverse catalog, with a significant presence of both Movies and TV Shows.
+- ✅ Certain countries contribute more content than others, highlighting regional content trends.
+- ✅ Genres like Drama and Comedy dominate, while Documentary and Crime content also have strong representation.
+- ✅ Data quality issues exist, with missing values for directors and date-added fields.
+- ✅ Netflix continues to expand its library, adding a significant amount of content in recent years.
+- ✅ This analysis can be used to guide Netflix’s content strategy, improve recommendations, and tailor regional content offerings.
 
 
 
